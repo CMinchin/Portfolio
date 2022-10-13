@@ -1,0 +1,31 @@
+header {
+    background-color: #3C3C3C;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 10px;
+    flex: 1 1 0;
+}
+
+.highlight {
+    color: #FFFFFF;
+}
+
+
+h2 {
+    color: #CCCCCC;
+    margin: 0px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a > h2:hover {
+    color: #FFFFFF;
+}

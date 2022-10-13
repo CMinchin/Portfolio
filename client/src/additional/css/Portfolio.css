@@ -1,0 +1,16 @@
+:root {
+    --img-wh: 50px;
+}
+
+footer {
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+}
+
+a > img {
+    filter: invert(100%);
+    opacity: 50%;
+    height: var(--img-wh);
+    padding: 5px;
+}
