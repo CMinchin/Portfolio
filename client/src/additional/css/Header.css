@@ -4,28 +4,28 @@ header {
     align-items: center;
 }
 
-h1 {
+header h1 {
     color: #FFFFFF;
     margin: 0px;
     padding: 10px;
     flex: 1 1 0;
 }
 
-.highlight {
+header .highlight {
     color: #FFFFFF;
 }
 
 
-h2 {
+header h2 {
     color: #CCCCCC;
     margin: 0px;
     padding: 10px;
 }
 
-a {
+header a {
     text-decoration: none;
 }
 
-a > h2:hover {
+header a > h2:hover {
     color: #FFFFFF;
 }

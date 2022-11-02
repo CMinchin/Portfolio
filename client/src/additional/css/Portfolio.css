@@ -1,16 +1,5 @@
-:root {
-    --img-wh: 50px;
-}
-
-footer {
-    background-color: #252525;
+.flex {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
-a > img {
-    filter: invert(100%);
-    opacity: 50%;
-    height: var(--img-wh);
-    padding: 5px;
-}

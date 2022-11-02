@@ -10,9 +10,9 @@ function Footer() {
         <a href='www.linkedin.com/in/cameron-minchin'>
             <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png-600x600.png" alt="Linkedin Logo" title="Linkedin Logo"></img>
         </a>
-        <a href='https://twitter.com/elonmusk/'>
-            <img src="https://cdn-icons-png.flaticon.com/512/49/49351.png?w=826&t=st=1665470601~exp=1665471201~hmac=24dcba86de7d8f8bea9d8ede0a66aa05cd9581fb29de891757275adc582280d5" alt="Twitter Logo" title="The only intellegent being on twitter"></img>
-        </a>
+        {/* <a href='https://www.desmos.com/calculator/'>
+            <img src="https://yt3.ggpht.com/ytc/AMLnZu_yzHqSzZS6VVAPMhHQc-4f8hORNOZybaD87eHsxA=s88-c-k-c0x00ffffff-no-rj" alt="Desmos Logo" title="My crowning achievement"></img>
+        </a> */}
     </footer>;
 }
 

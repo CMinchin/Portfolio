@@ -1,52 +1,26 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import "../additional/css/Header.css"
+import "../additional/css/Project.css"
 
-function Project() {
-  const text = 'some text';
-  return <header>
-    <h1>Cameron</h1>
-    <Routes>
-      <Route path ="/" element={
-        <h2 className='highlight'>About me</h2>
-      }/>
-      <Route path ="*" element={
-        <a href='/'>
-          <h2>About me</h2>
+
+const Lorem = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+function Project({github="https://www.github.com/cminchin/", link="https://www.github.com/cminchin/", title="Project name", desc = Lorem, imgsrc="https://cdn.shortpixel.ai/spai/w_788+q_lossy+ret_img+to_webp/https://upmostly.com/wp-content/uploads/react-on-hover-event-handling.jpg"}) {
+  return <div className='project'>
+    <img src={imgsrc}/>
+    <p className='hover'>
+      <h2>
+        <a href={github} className="github">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github Logo" title="Github link for project"></img>
         </a>
-      }/>
-    </Routes>
-    <Routes>
-      <Route path ="/portfolio" element={
-        <h2 className='highlight'>Portfolio</h2>
-      }/>
-      <Route path ="*" element={
-        <a href='/portfolio'>
-          <h2>Portfolio</h2>
+        <a href={link}>
+          {title}
         </a>
-      }/>
-    </Routes>
-    <Routes>
-      <Route path ="/getintouch" element={
-        <h2 className='highlight'>Get in Touch</h2>
-      }/>
-      <Route path ="*" element={
-        <a href='/getintouch'>
-          <h2>Get in Touch</h2>
-        </a>
-      }/>
-    </Routes>
-    <Routes>
-      <Route path ="/resume" element={
-        <h2 className='highlight'>Resume</h2>
-      }/>
-      <Route path ="*" element={
-        <a href='/resume'>
-          <h2>Resume</h2>
-        </a>
-      }/>
-    </Routes>
-  </header>;
+      </h2>
+      {desc}
+    </p>
+    <h2 className='regular'>
+      {title}
+    </h2>
+  </div>;
 }
 
 export default Project;

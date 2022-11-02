@@ -1,0 +1,75 @@
+.project {
+    margin: 10px;
+    display: block;
+    flex: 1 1 500px;
+    width: 500px;
+    height: 600px;
+    background-color: #aaa;
+}
+
+.project > p > h2 {
+    position: relative;
+    height: 30px;
+    margin: 0px;
+    top: -10px;
+    z-index: 0;
+}
+
+.project > h2 {
+    position: relative;
+    height: 30px;
+    margin: 0px;
+    top: -40px;
+    left: 10px;
+    z-index: 0;
+}
+
+.project > p {
+    position: relative;
+    height: 0px;
+    top: -580px;
+    margin: 0px;
+    padding: 0px 10px;
+    z-index: 0;
+    visibility: hidden;
+    background-color: white;
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.project:hover > .hover {
+    visibility: visible;
+}
+
+.project:hover > .regular {
+    visibility: hidden;
+}
+
+.project > img {
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+    opacity: 1;
+    transition: opacity ease 0.5s;
+}
+
+.project:hover > img {
+    opacity: 0.5;
+}
+
+.project .github > img{
+    height: 30px;
+    width: 30px;
+    padding-right: 5px;
+}
+
+.project h2 > a:hover {
+    opacity: 100%;
+}
+
+.project h2 > a {
+    opacity: 50%;
+    color: black;
+    text-decoration: none;
+}

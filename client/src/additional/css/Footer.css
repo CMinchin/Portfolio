@@ -8,9 +8,13 @@ footer {
     justify-content: center;
 }
 
-a > img {
+footer a > img {
     filter: invert(100%);
     opacity: 50%;
     height: var(--img-wh);
     padding: 5px;
+}
+
+footer a > img:hover {
+    opacity: 100%;
 }

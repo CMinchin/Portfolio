@@ -1,0 +1,8 @@
+main > p , main > h3, main > h2 {
+    color: white;
+    display:block
+}
+
+.avatar {
+    border-radius: 100px;
+}
