@@ -4,12 +4,13 @@ const port = process.env.PORT || 3001;
 const apiRoutes = require("./api")
 const path = require('path');
 
-
+app.use(express.json());
 // create a GET route
 app.use('/api', apiRoutes);
 
 app.get("/*.*", (req, res) => {
-    // console.log(req.url);
+    console.log(req.url);
+    console.log(req.body);
     res.sendFile(req.url, {root: path.join(__dirname, 'client/build')});
   })
 

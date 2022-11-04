@@ -27,11 +27,11 @@ function Header() {
       }/>
     </Routes>
     <Routes>
-      <Route path ="/getintouch" element={
+      <Route path ="/contact" element={
         <h2 className='highlight'>Get in Touch</h2>
       }/>
       <Route path ="*" element={
-        <a href='/getintouch'>
+        <a href='/contact'>
           <h2>Get in Touch</h2>
         </a>
       }/>

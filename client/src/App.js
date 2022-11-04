@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './additional/css/App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Portfolio from './components/pages/Portfolio';
-import Resume from './components/pages/Resume';
 import AboutMe from './components/pages/AboutMe';
+import Portfolio from './components/pages/Portfolio';
+import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
           }/>
           <Route path='/portfolio' element={
             <Portfolio/>
+          }/>
+          <Route path='/contact' element={
+            <Contact/>
           }/>
           <Route path='/resume' element={
             <Resume/>
