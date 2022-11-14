@@ -8,14 +8,14 @@ function AboutMe() {
         </h2>
         <img className='avatar' src='/Avatar.jpg' alt='My Avatar' title='My Avatar'/>
         <p>
-            My name is Cameron Minchin and I'm {new Date(Date.now()-Date.parse("11/12/2003")).getFullYear()-1970} years old and I've always hated talking about myself so I'll make this quick.
+            My name is Cameron Minchin and I'm {new Date(Date.now()-Date.parse("12/11/2003")).getFullYear()-1970} years old and I've always hated talking about myself so I'll make this quick.
         </p>
         <br/>
         <h3>
             ME
         </h3>
         <p>
-            I like to do things, to quote JFK, not because they are easy but because they are hard, its one of the reasons that the age above is not written as 18 or whatever it might end up being by the time you read this but is infact written {`{new Date(Date.now()-Date.parse("11/12/2003")).getFullYear()-1970}`} although the solution to the problem is definitely not 'better' than the problem it is easier that changing it every year.
+            I like to do things, to quote JFK, not because they are easy but because they are hard, its one of the reasons that the age above is not written as 18 or whatever it might end up being by the time you read this but is infact written {`{new Date(Date.now()-Date.parse("12/11/2003")).getFullYear()-1970}`} although the solution to the problem is definitely not 'better' than the problem it is easier that changing it every year.
             This is also co-evidenced by the fact that this section was originally called `#include icebreaker.h` and that I looked up whether co-evidenced was a word and then after finding out it wasn't, I proceded to not change it.
         </p>
         <br/>
@@ -27,7 +27,7 @@ function AboutMe() {
             To be honest I think that this is by far the best way of introducing people to the concept of programming because of the ease of use and the tangibility of its output. Obviously it's a special feeling watch you cause "Hello World!" print to the screen but nothing quite beats the tactile nature of a motor moving when you tell it to.
             in 2016 I learnt python, as well as a number of other 'languages' like html, css and js, and the sky was the limit. I have probably built thousands of programs out of python, most of them were one offs but I have also completed all of groklearning's python programs at least twice, once to learn and the second to see if I could do it all in one line of code each; I have always considered trying to complete everything in one program but I no longer have access to that account because it was linked to my school email
             Throughout the rest of my schooling I learnt a number of languages frameworks and techniques including but not limited to C#, SQL, C, node.js, .net framework, binary searches, breadth first searches and implementations of linked lists.
-            These allow me not only to addapt to a new language relatively quickly but prototype and produce a product that not only works but works well.
+            These allow me not only to adapt to a new language relatively quickly but prototype and produce a product that not only works but works well.
         </p>
         <br/>
         <h3>
