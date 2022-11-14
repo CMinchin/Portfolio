@@ -5,7 +5,7 @@ const projectRoutes = require('./projectRoutes');
 router.use('/users', userRoutes);
 router.use('/projects', projectRoutes);
 
-router.post("*", async (req, res) => {
+router.post("/contact", async (req, res) => {
     // console.log(req);
     console.log("\x1b[36m%s\x1b[0m", `request recieved at ${Date()}`);
     console.log(req.body);
